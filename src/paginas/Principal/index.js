@@ -12,17 +12,17 @@ export default function Principal({ navigation }) {
                 <>
                     <View style={estilos.fundo} />
                     <View style={estilos.imagemArea}>
-                        <Image source={{ uri: 'https://avatars.githubusercontent.com/u/54721131?v=4' }} style={estilos.imagem} />
+                        <Image source={{ uri: 'https://avatars.githubusercontent.com/u/82897913?v=4' }} style={estilos.imagem} />
                     </View>
-                    <Text style={estilos.textoNome}>Nome do usuario</Text>
-                    <Text style={estilos.textoEmail}>Email do usuario</Text>
+                    <Text style={estilos.textoNome}>Robert</Text>
+                    <Text style={estilos.textoEmail}>rraz639@gmail.com</Text>
                     <View style={estilos.seguidoresArea}>
                         <View style={estilos.seguidores}>
-                            <Text style={estilos.seguidoresNumero}>30</Text>
+                            <Text style={estilos.seguidoresNumero}>6</Text>
                             <Text style={estilos.seguidoresTexto}>Seguidores</Text>
                         </View>
                         <View style={estilos.seguidores}>
-                            <Text style={estilos.seguidoresNumero}>40</Text>
+                            <Text style={estilos.seguidoresNumero}>6</Text>
                             <Text style={estilos.seguidoresTexto}>Seguindo</Text>
                         </View>
                     </View>
